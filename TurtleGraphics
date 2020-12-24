@@ -1,0 +1,28 @@
+import turtle
+import time
+t=turtle.Turtle()
+'''t.shape('turtle')
+for i in range(5):
+    t.forward(100)
+    t.left(72)
+    time.sleep(0.3)'''
+       
+t.color('red')
+t.fillcolor('red')
+t.begin_fill()
+t.left(40)
+t.forward(130) 
+    
+t.circle(60,extent=230)
+t.setheading(90)
+t.circle(60,extent=230)
+t.forward(130)
+t.end_fill()
+t.hideturtle()
+t.setheading(90)
+t.forward(80)
+t.color('blue')
+t.write('HEART',align='center',font = ('Arial', 30, 'italic'))
+
+
+
